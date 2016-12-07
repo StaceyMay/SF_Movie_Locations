@@ -1,0 +1,9 @@
+<center>
+<h1> Famous Movie Locations in SF! </h1>
+</center>
+
+<% @locations.each do |location|%>
+<p> <%=location["title"]%> - 
+<i><%=location["locations"]%></i></p>
+<%end%>
+
